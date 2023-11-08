@@ -1,0 +1,20 @@
+<!doctype html> : Định nghĩa loại tài liệu 
+head : 
+body : 
+
+thẻ block 
+ + nó sẽ chiếm 100% diện tích mà nó có thể chiếm
+ + các thẻ block sẽ được sắp xếp theo chiều dọc 
+ + chiều cao của thẻ sẽ phụ thuộc vào phần nội dung 
+ 
+ Thẻ inline
+  + diện tĩh chỉ chiếm đến phần nội dung
+ + các thẻ block sẽ được sắp xếp theo chiều ngang
+ + chiều cao của thẻ sẽ phụ thuộc vào phần nội dung 
+ 
+ => Các thẻ block hay được sử dụg để xây dựng bố cục tổng quát cho trang web
+ => Các thẻ inline hay được sử dụng để xây dựng chi tiết cho trang web
+
+Cách để biến đổi một thẻ inline thành block và ngược lại 
++ bọc thẻ inline bên trong một thẻ block
++ sử dụng thuộc tính css
